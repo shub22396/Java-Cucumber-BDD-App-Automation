@@ -1,12 +1,13 @@
-# Cucumber Java Browserstack 
-<img src="src/test/resources/img/browserstack.png" width="60" height="60" ><img src="src/test/resources/img/cucumber.png" width="60" height="60" >
+# Cucumber Java Lambdatest 
 
-[Cucumber JVM](https://cucumber.io/docs/reference/jvm) Integration with BrowserStack.
+
+[Cucumber JVM](https://cucumber.io/docs/reference/jvm) Integration with Lambdatest for App Automation.
 
 ## Setup
 * Clone the repo
 * Install dependencies `mvn install`
-* Set environment variables with your [BrowserStack Username and Access Key](https://www.browserstack.com/accounts/settings).
+* Set environment variables with your [
+
 * Update `*.conf.js` files inside the `src/test/resources/conf/` directory to update desired capabilities.
 
 ## Running your tests
@@ -17,17 +18,9 @@
 
 
 ## Notes
-* You can view your test results on the [BrowserStack Automate dashboard](https://www.browserstack.com/automate)
-* To test on a different set of browsers, check out our [platform configurator](https://www.browserstack.com/automate/java#setting-os-and-browser)
-* You can export the environment variables for the Username and Access Key of your BrowserStack account. 
 
   ```
-  export BROWSERSTACK_USERNAME=<browserstack-username> &&
-  export BROWSERSTACK_ACCESS_KEY=<browserstack-access-key>
+  export LT_USERNAME=<lambdatest-username> &&
+  export LT_ACCESS_KEY=<lambdatest-access-key>
   ```
 
-## Addtional Resources
-* [Documentation for writing Automate test scripts in Java](https://www.browserstack.com/automate/java)
-* [Customizing your tests on BrowserStack](https://www.browserstack.com/automate/capabilities)
-* [Browsers & mobile devices for selenium testing on BrowserStack](https://www.browserstack.com/list-of-browsers-and-platforms?product=automate)
-* [Using REST API to access information about your tests via the command-line interface](https://www.browserstack.com/automate/rest-api)
