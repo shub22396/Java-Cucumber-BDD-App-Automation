@@ -1,0 +1,18 @@
+{
+  "server": "",
+  "user": "",
+  "key": "",
+
+  "capabilities": {
+    "build": "cucumber-java"
+
+  },
+
+  "environments": [{
+    "browser": "chrome"
+  }],
+
+  "localOptions": {
+    "forceLocal": true
+  }
+}

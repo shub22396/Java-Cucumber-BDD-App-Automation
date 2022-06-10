@@ -1,0 +1,19 @@
+{
+  "server": "beta-hub.lambdatest.com",
+  "user": "shubhamr",
+  "key": "",
+
+  "capabilities": {
+    "build": "cucumber-java"
+
+  },
+
+  "environments": [{
+    "deviceName": "Galaxy S20",
+    "platformVersion": "11",
+    "isRealMobile": "true",
+    "app": "lt://APP100202361654784011637855",
+    "platformName": "Android"
+
+  }]
+}
